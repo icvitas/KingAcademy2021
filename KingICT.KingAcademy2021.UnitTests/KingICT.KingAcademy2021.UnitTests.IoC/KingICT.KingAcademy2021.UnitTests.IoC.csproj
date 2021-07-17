@@ -13,7 +13,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Configuration\KingICT.KingAcademy2021.UnitTests.Configuration.csproj" />
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Contract\KingICT.KingAcademy2021.UnitTests.Contract.csproj" />
     <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Repository\KingICT.KingAcademy2021.UnitTests.Repository.csproj" />
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Service\KingICT.KingAcademy2021.UnitTests.Service.csproj" />
   </ItemGroup>
 
 </Project>

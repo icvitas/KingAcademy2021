@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Contract\KingICT.KingAcademy2021.UnitTests.Contract.csproj" />
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Messaging\KingICT.KingAcademy2021.UnitTests.Messaging.csproj" />
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Model\KingICT.KingAcademy2021.UnitTests.Model.csproj" />
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Repository\KingICT.KingAcademy2021.UnitTests.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

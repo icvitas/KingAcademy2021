@@ -8,4 +8,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Model\KingICT.KingAcademy2021.UnitTests.Model.csproj" />
+  </ItemGroup>
+
 </Project>
