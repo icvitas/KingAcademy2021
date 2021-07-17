@@ -4,6 +4,12 @@
     {
         public int Id { get; }
 
-        public int Name { get; init; }
+        public string Name { get; init; }
+
+        public Topic(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
     }
 }

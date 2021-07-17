@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.Uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.IoC", "KingICT.KingAcademy2021.UnitTests.IoC\KingICT.KingAcademy2021.UnitTests.IoC.csproj", "{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.UnitTest", "KingICT.KingAcademy2021.UnitTests.UnitTest\KingICT.KingAcademy2021.UnitTests.UnitTest.csproj", "{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
