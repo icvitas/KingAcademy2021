@@ -27,7 +27,7 @@ namespace KingICT.KingAcademy2021.UnitTests.UnitTest
         {
             // Arrange
             var student = new Student(1, "Luka", "Modriæ");
-            var studentTopic = new Topic(1, "C#");
+            var studentTopic = new Topic(1, ".NET");
 
             // Act
             student.AddTopic(studentTopic);
@@ -43,7 +43,7 @@ namespace KingICT.KingAcademy2021.UnitTests.UnitTest
             var student = new Student(1, "Luka", "Modriæ");
             var studentTopics = new[]
             {
-                new Topic(1, "C#"),
+                new Topic(1, ".NET"),
                 new Topic(2, "Java")
             };
 
@@ -76,12 +76,12 @@ namespace KingICT.KingAcademy2021.UnitTests.UnitTest
             {
                 Topics = new List<Topic>()
                 {
-                    new Topic(1, "C#")
+                    new Topic(1, ".NET")
                 }
             };
 
             // Act
-            student.AddTopic(new Topic(1, "C#"));
+            student.AddTopic(new Topic(1, ".NET"));
         }
     }
 }

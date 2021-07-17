@@ -6,12 +6,18 @@ namespace KingICT.KingAcademy2021.UnitTests.Model
     {
         public int Id { get; }
 
-        public int Name { get; init; }
+        public string Name { get; }
 
         public ICollection<Topic> Topics { get; init; }
 
-        public ICollection<Student> Listeners { get; }
+        public ICollection<Student> Listeners { get; init; }
 
         public int MaxNumberOfListeners { get; init; }
+
+        public Course(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
     }
 }

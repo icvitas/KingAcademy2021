@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace KingICT.KingAcademy2021.UnitTests.Model
 {
@@ -8,7 +9,7 @@ namespace KingICT.KingAcademy2021.UnitTests.Model
     {
         public int Id { get; }
 
-        public string Name { get; init; }
+        public string Name { get; }
 
         public ICollection<Student> Students { get; init; }
 
@@ -31,7 +32,12 @@ namespace KingICT.KingAcademy2021.UnitTests.Model
 
         public void AddStudent(Student student)
         {
-            throw new NotImplementedException();
+            if (Students.Any(x => x.Id == student.Id))
+            {
+                throw new Exception("Student is alredy added");
+            }
+
+            Students.Add(student);
         }
     }
 }
