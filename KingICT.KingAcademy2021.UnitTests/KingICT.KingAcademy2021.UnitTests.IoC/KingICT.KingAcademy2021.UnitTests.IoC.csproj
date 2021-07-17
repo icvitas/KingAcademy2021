@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Configuration\KingICT.KingAcademy2021.UnitTests.Configuration.csproj" />
+    <ProjectReference Include="..\KingICT.KingAcademy2021.UnitTests.Repository\KingICT.KingAcademy2021.UnitTests.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
