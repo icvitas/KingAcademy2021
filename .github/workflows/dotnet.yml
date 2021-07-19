@@ -21,6 +21,8 @@ jobs:
       working-directory: ./KingICT.KingAcademy2021.UnitTests
       run: dotnet restore
     - name: Build
+      working-directory: ./KingICT.KingAcademy2021.UnitTests
       run: dotnet build --no-restore
     - name: Test
+      working-directory: ./KingICT.KingAcademy2021.UnitTests
       run: dotnet test --no-build --verbosity normal
