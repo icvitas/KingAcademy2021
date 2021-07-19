@@ -108,22 +108,22 @@ namespace KingICT.KingAcademy2021.UnitTests.Tests
             kingAcademy.AddStudent(student);
         }
 
-        [TestMethod]
-        public void StudentIsNotAdded_When_KingAcademyMaxNumberOfStudentsIsExceeded()
-        {
-            throw new NotImplementedException();
-        }
+        //[TestMethod]
+        //public void StudentIsNotAdded_When_KingAcademyMaxNumberOfStudentsIsExceeded()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        [TestMethod]
-        public void StudentIsNotAdded_When_StudentDoNotHaveAnyTopic()
-        {
-            throw new NotImplementedException();
-        }
+        //[TestMethod]
+        //public void StudentIsNotAdded_When_StudentDoNotHaveAnyTopic()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        [TestMethod]
-        public void StudentIsNotAdded_When_KingAcademyDoNotHaveAnyStudentTopic()
-        {
-            throw new NotImplementedException();
-        }
+        //[TestMethod]
+        //public void StudentIsNotAdded_When_KingAcademyDoNotHaveAnyStudentTopic()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
