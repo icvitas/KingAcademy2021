@@ -3,10 +3,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 
-namespace KingICT.KingAcademy2021.UnitTests.UnitTest
+namespace KingICT.KingAcademy2021.UnitTests.Tests
 {
     [TestClass]
-    public class StudentTest
+    public class StudentTests
     {
         [TestMethod]
         public void FullnameIsCorrect_When_CreateStudent()

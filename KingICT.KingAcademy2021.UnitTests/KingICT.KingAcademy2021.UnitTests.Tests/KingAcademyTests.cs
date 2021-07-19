@@ -4,10 +4,10 @@ using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace KingICT.KingAcademy2021.UnitTests.UnitTest
+namespace KingICT.KingAcademy2021.UnitTests.Tests
 {
     [TestClass]
-    public class KingAcademyTest
+    public class KingAcademyTests
     {
         private KingAcademy kingAcademy;
 
@@ -85,14 +85,23 @@ namespace KingICT.KingAcademy2021.UnitTests.UnitTest
         [TestMethod]
         public void StudentIsAdded_When_AddStudent()
         {
+            // Arrange
+            var studentsBefofeAdd = kingAcademy.Students.Count;
+            var student = new Student(kingAcademy.Students.Max(x => x.Id) + 1, "Novi", "Student");
 
+            // Act
+            kingAcademy.AddStudent(student);
+
+            // Assert
+            var expected = studentsBefofeAdd + 1;
+            Assert.AreEqual(expected, kingAcademy.Students.Count);
         }
 
         [TestMethod]
         [ExpectedException(typeof(Exception))]
         public void StudentIsNotAdded_When_StudentIsAlredyAdded()
         {
-            // Assert
+            // Arrange
             var student = new Student(1, "Luka", "Modrić");
 
             // Act

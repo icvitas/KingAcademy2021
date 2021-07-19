@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.WebAPI", "KingICT.KingAcademy2021.UnitTests.WebAPI\KingICT.KingAcademy2021.UnitTests.WebAPI.csproj", "{D2681853-E1CC-4379-AAB7-6785EC2A89CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.WebAPI", "KingICT.KingAcademy2021.UnitTests.WebAPI\KingICT.KingAcademy2021.UnitTests.WebAPI.csproj", "{D2681853-E1CC-4379-AAB7-6785EC2A89CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.Service", "KingICT.KingAcademy2021.UnitTests.Service\KingICT.KingAcademy2021.UnitTests.Service.csproj", "{1D891E77-F52C-4E17-B726-0CD4CF0A1285}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.Service", "KingICT.KingAcademy2021.UnitTests.Service\KingICT.KingAcademy2021.UnitTests.Service.csproj", "{1D891E77-F52C-4E17-B726-0CD4CF0A1285}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.Model", "KingICT.KingAcademy2021.UnitTests.Model\KingICT.KingAcademy2021.UnitTests.Model.csproj", "{EA2CF0A7-0F49-4269-9716-B6287DC0A3EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.Model", "KingICT.KingAcademy2021.UnitTests.Model\KingICT.KingAcademy2021.UnitTests.Model.csproj", "{EA2CF0A7-0F49-4269-9716-B6287DC0A3EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.Repository", "KingICT.KingAcademy2021.UnitTests.Repository\KingICT.KingAcademy2021.UnitTests.Repository.csproj", "{CADE1C75-1B75-4BA4-8670-E85CE691DB27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.Repository", "KingICT.KingAcademy2021.UnitTests.Repository\KingICT.KingAcademy2021.UnitTests.Repository.csproj", "{CADE1C75-1B75-4BA4-8670-E85CE691DB27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.Contract", "KingICT.KingAcademy2021.UnitTests.Contract\KingICT.KingAcademy2021.UnitTests.Contract.csproj", "{EAF5EF97-2202-40C1-BC0D-5F19EDD10B50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.Contract", "KingICT.KingAcademy2021.UnitTests.Contract\KingICT.KingAcademy2021.UnitTests.Contract.csproj", "{EAF5EF97-2202-40C1-BC0D-5F19EDD10B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.Messaging", "KingICT.KingAcademy2021.UnitTests.Messaging\KingICT.KingAcademy2021.UnitTests.Messaging.csproj", "{417A6863-D881-4227-8A01-E97F4C69593B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.Messaging", "KingICT.KingAcademy2021.UnitTests.Messaging\KingICT.KingAcademy2021.UnitTests.Messaging.csproj", "{417A6863-D881-4227-8A01-E97F4C69593B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.Configuration", "KingICT.KingAcademy2021.UnitTests.Configuration\KingICT.KingAcademy2021.UnitTests.Configuration.csproj", "{56878CA9-B4FB-427D-AEDE-1874CC2C7127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.IoC", "KingICT.KingAcademy2021.UnitTests.IoC\KingICT.KingAcademy2021.UnitTests.IoC.csproj", "{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.IoC", "KingICT.KingAcademy2021.UnitTests.IoC\KingICT.KingAcademy2021.UnitTests.IoC.csproj", "{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.KingAcademy2021.UnitTests.UnitTest", "KingICT.KingAcademy2021.UnitTests.UnitTest\KingICT.KingAcademy2021.UnitTests.UnitTest.csproj", "{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.KingAcademy2021.UnitTests.Tests", "KingICT.KingAcademy2021.UnitTests.Tests\KingICT.KingAcademy2021.UnitTests.Tests.csproj", "{CF3EF901-5FF2-44C9-B93D-5886E1BD4FB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D0F5A03-D736-4696-AA1E-BB0AF87D92E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB737CFA-AB07-4D0D-A054-A4F5B4DABE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3EF901-5FF2-44C9-B93D-5886E1BD4FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3EF901-5FF2-44C9-B93D-5886E1BD4FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3EF901-5FF2-44C9-B93D-5886E1BD4FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3EF901-5FF2-44C9-B93D-5886E1BD4FB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
